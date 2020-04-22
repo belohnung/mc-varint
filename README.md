@@ -13,7 +13,7 @@ Minecraft VarInt and VarLong implemetation in Rust, providing minimum memory usa
 
 ## Read a VarInt from a Read
 
-```Rust
+```rust
 use mc_varint::VarIntRead;
 use std::io::Cursor;
 fn main() {
@@ -28,7 +28,7 @@ fn main() {
 
 ## Write a VarInt to a Write
 
-```Rust
+```rust
 use mc_varint::{VarInt, VarIntWrite};
 use std::io::Cursor;
 fn main() {
