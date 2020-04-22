@@ -1,4 +1,4 @@
-# mc-varint
+# minecaft-varint
 Minecraft VarInt and VarLong implemetation in Rust, providing minimum memory usage and maximum performance.
 
 [![Crates.io][crates-badge]][crates-url]
@@ -41,20 +41,3 @@ fn main() {
 }
 ```
 
-# Performance
-
-Platform: 3.4GHz Intel Core i5
-
-```
-running 8 tests
-test read_i32  ... bench:           5 ns/iter (+/- 1)
-test read_i64  ... bench:           4 ns/iter (+/- 1)
-test read_u32  ... bench:           4 ns/iter (+/- 1)
-test read_u64  ... bench:           4 ns/iter (+/- 0)
-test write_i32 ... bench:           4 ns/iter (+/- 0)
-test write_i64 ... bench:           4 ns/iter (+/- 0)
-test write_u32 ... bench:           4 ns/iter (+/- 0)
-test write_u64 ... bench:           4 ns/iter (+/- 0)
-
-test result: ok. 0 passed; 0 failed; 0 ignored; 8 measured; 0 filtered out
-```
