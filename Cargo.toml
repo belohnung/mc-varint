@@ -1,6 +1,6 @@
 [package]
 name = "minecraft-varint"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["luojia65 <me@luojia.cc>", "belohnung <belohnung@protonmail.com>"]
 description = "Minecraft's VarInt and VarLong implemetation in Rust, providing minimum memory usage and maximum performance."
 license = "WTFPL"
